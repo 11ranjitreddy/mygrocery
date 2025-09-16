@@ -13,6 +13,8 @@ import OrdersPage from './pages/OrdersPage';
 import OffersPage from './pages/OffersPage';
 import HelpPage from './pages/HelpPage';
 import SignUpPage from './pages/SingUpPage';
+// import ResetPasswordPage from './pages/ResetPasswordPage';
+// import ForgotPasswordPage from './pages/ForgotPasswordPage';
 // import AdminLoginPage from './pages/AdminLoginPage';
 // import AdminDashboard from './pages/AdminDashboard';
 // import AdminProductsPage from './pages/AdminProductsPage';
@@ -39,6 +41,8 @@ function App() {
                 <Route path="/" element={<HomePage />} />
                 <Route path="/signin" element={<SignInPage />} />
                 <Route path ="/signup" element={<SignUpPage/>}/>
+                {/* <Route path="/forgot-password" element={<ForgotPasswordPage />}/>
+                <Route path="/reset-password" element={<ResetPasswordPage/>}/> */}
                 {/* <Route path="/admin/login" element={<AdminLoginPage/>}/> */}
                 <Route path="/offers" element={<OffersPage />} />
                 {/* <Route path="/admin/Products" element ={<AdminProductsPage/>}/>
